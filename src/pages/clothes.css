@@ -1,0 +1,83 @@
+
+                    /* paragstyle */
+                    #prag {
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      color: white;
+                      padding: 3%;
+                      z-index: 1000;
+                      font-size: 1.2em;
+                      text-align: left;
+                      margin-top:41%;
+                      margin-left:15%;
+                      padding-left:5%;
+                      padding-right:25%;
+                      background-color:rgba(255, 255, 255, 0.15);
+                      text-shadow: 2px 2px 4px rgba(0, 0, 0, 10.9);
+                    }
+
+                    
+
+
+
+/* cards style */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+  
+  .card {
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-img-top {
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+   
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  .crd{
+    box-shadow: 10px 10px 10px rgba(252, 251, 251, 0.19);}
+    .card:hover {
+      transform: scale(1.07);
+      box-shadow: 0 10px 20px rgb(255, 255, 255); /* Add a shadow effect */
+    }
+
+                          /* shopNow boutton style */
+/* App.css */
+#shopNow {
+  background-color: black;
+  border-color: black;
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#shopNow:hover {
+  transform: scale(1.05); /* Increase the size */
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); /* Add a shadow effect */
+}
+
+                 /* off canvas display */
+                 #display{
+                  color: rgb(0, 0, 0);
+                  font-size: 40px;
+                  text-align: center;
+                  background-color: rgba(255, 255, 255, 0.54);
+                 }
